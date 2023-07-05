@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body{
-    font-family: Inter;
+  font-family: Inter;
 }
 
 header {
@@ -30,20 +30,20 @@ header img {
 }
 
 h2 {
-    font-size: 20px;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 ul {
-    display: flex;
-    justify-content: space-around;
-    width: 30vw;
-    list-style-type: none;
-    text-transform: uppercase;
-    color: #ffffff;
-    font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  width: 30vw;
+  list-style-type: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 20px;
 }
 
 main {
@@ -62,12 +62,12 @@ main {
 }
 
 .texto1{
-    width: 500px;
-    color: #0f468c;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 25px;
-    text-align: left;
+  width: 500px;
+  color: #0f468c;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: left;
 }
 
 .conteiner2 {
@@ -87,15 +87,20 @@ main {
 
 .imagens{
   background-color: #E4EEF1;
+  height: 32vh;
+  
+}
+
+.imagens figure{
   display: flex;
   justify-content: space-evenly;
+  height: 30vh;
   align-items: center;
-  height: 28vh;
 }
 
 footer{
   background-color: #4B93BF;
-  height: 30vh;
+  height: 28vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
